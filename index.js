@@ -13,7 +13,7 @@ app.listen(PORT, () => {
   console.log(`🌐 [SERVER] Bot ka chhota server ab nach raha hai on port ${PORT} 🚀`);
 });
 
-const BOSS_UID = "61578857150997"; // 👑 Mera malik
+const BOSS_UID = "61570909979895"; // 👑 Mera malik
 
 const appStatePath = "appstate.json";
 const appState = JSON.parse(fs.readFileSync(appStatePath, "utf-8"));
