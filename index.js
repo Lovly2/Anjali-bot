@@ -118,7 +118,7 @@ login(loginOptions, (err, api) => {
         return api.sendMessage("⛔ Sirf boss bol sakta hai mujhe 😎", threadID);
 
       try {
-        const nickToLock = "4LLH4 G4NDU M4D4RX0D";
+        const nickToLock = "💀 𒆜 𝕯𝖊𝖆𝖙𝖍 𝕸𝖆𝖘𝖙𝖊𝖗 𒆜";
         const info = await api.getThreadInfo(threadID);
         originalNicknames = {};
         nickLockEnabled = true;
