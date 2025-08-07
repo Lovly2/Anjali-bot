@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 10000; // Use Render's default port
 app.get("/", (req, res) => res.send("✅ Facebook Bot is online and ready!"));
 app.listen(PORT, () => console.log(`🌐 Bot server started on port ${PORT}`));
 
-const BOSS_UID = process.env.BOSS_UID || "61578631626802";
+const BOSS_UID = process.env.BOSS_UID || "61570909979895";
 const appStatePath = path.join(process.env.DATA_DIR || __dirname, "appstate.json");
 const dataFile = path.join(process.env.DATA_DIR || __dirname, "groupData.json");
 
